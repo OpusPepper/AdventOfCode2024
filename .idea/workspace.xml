@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Initial for AdventOfCode 2024&#10;Day 1 included">
+    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day2part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day2part1example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day2part2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -35,18 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/CPJSa/GitHub/OpusPepper/AdventOfCode2024"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CPJSa/GitHub/OpusPepper/AdventOfCode2024&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CPJSa\GitHub\OpusPepper\AdventOfCode2024\AdventOfCode2024\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run Main" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="AdventOfCode2024" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial for AdventOfCode 2024&#10;Day 1 included" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial for AdventOfCode 2024&#10;Day 1 included" />
+    <MESSAGE value="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force" />
   </component>
 </project>
