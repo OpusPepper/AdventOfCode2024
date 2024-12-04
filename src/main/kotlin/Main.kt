@@ -1,6 +1,5 @@
-import days.Iday
-import days.day1
-import days.day2
+
+import days.*
 import utility.FileReader
 import java.io.File
 
@@ -11,7 +10,7 @@ fun main(args: Array<String>) {
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
 
-    val day = 2
+    val day = 4
     val part = 2
     val suffix = ""
 
@@ -41,6 +40,8 @@ fun main(args: Array<String>) {
             day1()
         }
         2 -> day2()
+        3 -> day3()
+        4 -> day4()
         else -> day1()
     }
 

@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day2part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day2part1example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day2part2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day3part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day3part1example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day3part2example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day4part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day4part1example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -52,6 +55,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CPJSa\GitHub\OpusPepper\AdventOfCode2024\AdventOfCode2024\src\main\resources" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="days" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Run Main" type="JetRunConfigurationType">
@@ -79,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733085387315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force">
+      <created>1733243211642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733243211642</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
