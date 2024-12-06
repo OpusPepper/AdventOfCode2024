@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
 
-    val day = 4
+    val day = 5
     val part = 2
     val suffix = ""
 
@@ -42,6 +42,7 @@ fun main(args: Array<String>) {
         2 -> day2()
         3 -> day3()
         4 -> day4()
+        5 -> day5()
         else -> day1()
     }
 

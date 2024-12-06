@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day3part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day3part1example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day3part2example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day4part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day4part1example.txt" afterDir="false" />
+    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 3 included&#10;Day 4 included">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day5part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day5part1example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -92,12 +88,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733243211642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 3 included&#10;Day 4 included">
+      <created>1733341500630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733341500630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial for AdventOfCode 2024&#10;Day 1 included" />
     <MESSAGE value="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force" />
+    <MESSAGE value="Day 3 included&#10;Day 4 included" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3 included&#10;Day 4 included" />
   </component>
 </project>
