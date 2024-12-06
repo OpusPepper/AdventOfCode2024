@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 3 included&#10;Day 4 included">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day5part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day5part1example.txt" afterDir="false" />
+    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 5 included">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/day5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733341500630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 5 included">
+      <created>1733468102751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733468102751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +117,7 @@
     <MESSAGE value="Initial for AdventOfCode 2024&#10;Day 1 included" />
     <MESSAGE value="Day 2 included&#10;&#10;I couldn't get the smart algorithm to work, so had to resort to brute force" />
     <MESSAGE value="Day 3 included&#10;Day 4 included" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3 included&#10;Day 4 included" />
+    <MESSAGE value="Day 5 included" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 included" />
   </component>
 </project>

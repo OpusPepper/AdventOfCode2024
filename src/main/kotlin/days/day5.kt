@@ -2,21 +2,18 @@ package days
 
 import java.util.*
 
-class pageOrderingRules (x: Int, y: Int){
-    var x: Int = x
-    var y: Int = y
-}
+class pageOrderingRules (var x: Int, var y: Int)
 class day5 : Iday {
     override fun part1(inputLines: List<String>) {
         var total = 0
-        var listOfRules = mutableListOf<pageOrderingRules>()
-        var printPages = mutableListOf<String>()
+        val listOfRules = mutableListOf<pageOrderingRules>()
+        val printPages = mutableListOf<String>()
 
         for (l in inputLines){
-            println("Line: ${l}")
+            println("Line: $l")
             if (l.contains("|")) {
-                var splitL = l.split("|")
-                var newpageOrderingRules = pageOrderingRules(splitL.elementAt(0).toInt(), splitL.elementAt(1).toInt())
+                val splitL = l.split("|")
+                val newpageOrderingRules = pageOrderingRules(splitL.elementAt(0).toInt(), splitL.elementAt(1).toInt())
                 listOfRules.add(newpageOrderingRules)
             }
             else if (l.contains(",")) {
@@ -25,17 +22,17 @@ class day5 : Iday {
         }
 
         for(p in printPages) {
-            println("Page: ${p}")
-            var pagesInOrder = p.split(",").map { it.toInt() }
+            println("Page: $p")
+            val pagesInOrder = p.split(",").map { it.toInt() }
             var printIsValid = true
 
             for (n in pagesInOrder) {
                 //println("Evaluating page: $n")
-                var rulesForNum = listOfRules.filter { x -> x.x == n }
+                val rulesForNum = listOfRules.filter { x -> x.x == n }
 
                 for(x in rulesForNum) {
-                    var positionX = pagesInOrder.indexOf(x.x)
-                    var positionY = pagesInOrder.indexOf(x.y)
+                    val positionX = pagesInOrder.indexOf(x.x)
+                    val positionY = pagesInOrder.indexOf(x.y)
 
                     //println("Rule: ${x.x}|${x.y} - posX: $positionX, posY: $positionY")
                     if (positionX != -1 && positionY != -1) {
@@ -45,8 +42,8 @@ class day5 : Iday {
                 }
             }
             //println("${pagesInOrder.size} / 2 = ${pagesInOrder.size/2}")
-            var middlePage = pagesInOrder.elementAt((pagesInOrder.size / 2) )
-            println("PagesInOrder: ${pagesInOrder} - Valid: ${printIsValid.toString()} - Middle page: ${middlePage}")
+            val middlePage = pagesInOrder.elementAt((pagesInOrder.size / 2) )
+            println("PagesInOrder: $pagesInOrder - Valid: $printIsValid - Middle page: $middlePage")
             if (printIsValid) {
                 total+= middlePage
             }
@@ -61,14 +58,14 @@ class day5 : Iday {
         var totalValidFirstTime = 0
         var totalValidSecondTime = 0
 
-        var listOfRules = mutableListOf<pageOrderingRules>()
-        var printPages = mutableListOf<String>()
+        val listOfRules = mutableListOf<pageOrderingRules>()
+        val printPages = mutableListOf<String>()
 
         for (l in inputLines){
-            println("Line: ${l}")
+            println("Line: $l")
             if (l.contains("|")) {
-                var splitL = l.split("|")
-                var newpageOrderingRules = pageOrderingRules(splitL.elementAt(0).toInt(), splitL.elementAt(1).toInt())
+                val splitL = l.split("|")
+                val newpageOrderingRules = pageOrderingRules(splitL.elementAt(0).toInt(), splitL.elementAt(1).toInt())
                 listOfRules.add(newpageOrderingRules)
             }
             else if (l.contains(",")) {
@@ -77,23 +74,23 @@ class day5 : Iday {
         }
 
         for(p in printPages) {
-            println("Page: ${p}")
-            var pagesInOrder = p.split(",").map { it.toInt() }
-            var printIsValid = isValid(pagesInOrder, listOfRules)
+            println("Page: $p")
+            val pagesInOrder = p.split(",").map { it.toInt() }
+            val printIsValid = isValid(pagesInOrder, listOfRules)
 
             //println("${pagesInOrder.size} / 2 = ${pagesInOrder.size/2}")
             var middlePage = pagesInOrder.elementAt((pagesInOrder.size / 2) )
-            println("PagesInOrder: ${pagesInOrder} - Valid: ${printIsValid.toString()} - Middle page: ${middlePage}")
+            println("PagesInOrder: $pagesInOrder - Valid: $printIsValid - Middle page: $middlePage")
             if (printIsValid) {
                 //total+= middlePage
                 totalValidFirstTime+= 1
             }
             else {
-                var mySortedList = sortMyListofPages(pagesInOrder, listOfRules)
+                val mySortedList = sortMyListofPages(pagesInOrder, listOfRules)
 
-                var isNewValid = isValid(mySortedList, listOfRules)
-                var middlePage = mySortedList.elementAt((mySortedList.size / 2) )
-                println("Reordered list: ${mySortedList} - Valid: $isNewValid - Middle: $middlePage")
+                val isNewValid = isValid(mySortedList, listOfRules)
+                middlePage = mySortedList.elementAt((mySortedList.size / 2) )
+                println("Reordered list: $mySortedList - Valid: $isNewValid - Middle: $middlePage")
                 if (isNewValid) {
                     totalValidSecondTime+= 1
                     total+= middlePage
@@ -113,11 +110,11 @@ class day5 : Iday {
         var printIsValid = true
         for (n in listOfPages) {
             //println("Evaluating page: $n")
-            var rulesForNum = listOfRules.filter { x -> x.x == n }
+            val rulesForNum = listOfRules.filter { x -> x.x == n }
 
             for(x in rulesForNum) {
-                var positionX = listOfPages.indexOf(x.x)
-                var positionY = listOfPages.indexOf(x.y)
+                val positionX = listOfPages.indexOf(x.x)
+                val positionY = listOfPages.indexOf(x.y)
 
                 //println("Rule: ${x.x}|${x.y} - posX: $positionX, posY: $positionY")
                 if (positionX != -1 && positionY != -1) {
@@ -130,18 +127,17 @@ class day5 : Iday {
     }
 
     private fun sortMyListofPages(pagesInOrder: List<Int>, listOfRules: MutableList<pageOrderingRules>): List<Int> {
-        var copyOfPagesInOrder = mutableListOf<Int>()
+        val copyOfPagesInOrder = mutableListOf<Int>()
         for (p in pagesInOrder) {
             copyOfPagesInOrder.add(p)
         }
         for (p in pagesInOrder) {
-            var whichWayToMove = 0
+            var whichWayToMove: Int
             do {
-                var indexOfP = copyOfPagesInOrder.indexOf(p)
-                var p1 = if (indexOfP == 0)  null else copyOfPagesInOrder.elementAt(indexOfP - 1)
-                var p2 = p
-                var p3 = if (indexOfP == (copyOfPagesInOrder.size - 1)) null else copyOfPagesInOrder.elementAt(indexOfP + 1)
-                whichWayToMove = figureOutWhichWayToMove(p1, p2, p3, listOfRules)
+                val indexOfP = copyOfPagesInOrder.indexOf(p)
+                val p1 = if (indexOfP == 0)  null else copyOfPagesInOrder.elementAt(indexOfP - 1)
+                val p3 = if (indexOfP == (copyOfPagesInOrder.size - 1)) null else copyOfPagesInOrder.elementAt(indexOfP + 1)
+                whichWayToMove = figureOutWhichWayToMove(p1, p, p3, listOfRules)
 
                 if (whichWayToMove == -1) {
                     Collections.swap(copyOfPagesInOrder, indexOfP, indexOfP-1)
@@ -155,8 +151,8 @@ class day5 : Iday {
     }
 
     private fun figureOutWhichWayToMove(pageToLeft: Int?, currentPage: Int, pageToRight: Int?, rules: MutableList<pageOrderingRules>) : Int {
-        var findXRules = rules.filter { r -> r.x == currentPage}
-        var findYRules = rules.filter { r -> r.y == currentPage }
+        val findXRules = rules.filter { r -> r.x == currentPage}
+        val findYRules = rules.filter { r -> r.y == currentPage }
 
         //println("L: $pageToLeft C: $currentPage R: $pageToRight")
 
