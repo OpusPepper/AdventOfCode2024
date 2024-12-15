@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 5 included">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/day6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day6part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day6part1example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/day5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +44,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CPJSa/GitHub/OpusPepper/AdventOfCode2024&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CPJSa/GitHub/OpusPepper/AdventOfCode2024/src/main/kotlin/days&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CPJSa\GitHub\OpusPepper\AdventOfCode2024\src\main\kotlin\days" />
       <recent name="C:\Users\CPJSa\GitHub\OpusPepper\AdventOfCode2024\AdventOfCode2024\src\main\resources" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -99,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733468102751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 5 included">
+      <created>1733468738428</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733468738428</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +131,17 @@
     <MESSAGE value="Day 3 included&#10;Day 4 included" />
     <MESSAGE value="Day 5 included" />
     <option name="LAST_COMMIT_MESSAGE" value="Day 5 included" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="guardPosition.row == 9 &amp;&amp; guardPosition.col == 7" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/day6.kt</url>
+          <line>310</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
