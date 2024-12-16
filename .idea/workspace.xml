@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 6 part 2 attempt 2 - solved, precleanup">
+    <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Day 6 part 2 attempt 2 - solved - cleaned up a little">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/day6.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734349540668</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day 6 part 2 attempt 2 - solved - cleaned up a little">
+      <created>1734349742007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734349742007</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +150,7 @@
     <MESSAGE value="Day 5 included" />
     <MESSAGE value="Day 6 part 1 complete &#10;Day 6 part 2 attempt 1" />
     <MESSAGE value="Day 6 part 2 attempt 2 - solved, precleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6 part 2 attempt 2 - solved, precleanup" />
+    <MESSAGE value="Day 6 part 2 attempt 2 - solved - cleaned up a little" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 part 2 attempt 2 - solved - cleaned up a little" />
   </component>
 </project>
