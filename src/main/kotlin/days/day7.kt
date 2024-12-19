@@ -12,7 +12,7 @@ class day7 : Iday {
             //println("split0: ${inputLines[l].split(":")[0]}")
             //println("split1: ${inputLines[l].split(":")[1].trim().split(" ")}")
             val formulaNumbers = inputLines[l].split(":")[1].trim().split(" ").map() { it.toLong() }
-            println("formulaNumbers: $formulaNumbers")
+            //println("formulaNumbers: $formulaNumbers")
             var stack = ArrayDeque(formulaNumbers)
             var binaryNum = 0
             var calculatedValue = caculateWithBinary(binaryNum, stack, answer)
@@ -33,7 +33,7 @@ class day7 : Iday {
         for(n in 0 until Math.pow(2.toDouble(), stack.size.toDouble()).toInt()) {
             actualAnswer = calculateStringWithBinaryRepresentationForOperators(stack, newBinaryNumber)
             if (actualAnswer == expectedAnswer) {
-                println("We found the answer!")
+                //println("We found an answer!")
                 return expectedAnswer
             }
             newBinaryNumber += 1
@@ -45,7 +45,7 @@ class day7 : Iday {
         var actualAnswer = 0L
         var binaryAsString = Integer.toBinaryString(binaryNumber).padStart(Int.SIZE_BITS, '0')
         var positionInBinary = binaryAsString.length - 1
-        println("actualAnswer: $actualAnswer, binaryAsString: $binaryAsString")
+        //println("actualAnswer: $actualAnswer, binaryAsString: $binaryAsString")
         //println("len(positionInBinary): ${binaryAsString.length}")
         for(n in stack.indices) {
             //println("Stack[$n]: ${stack[n]}")
@@ -63,7 +63,7 @@ class day7 : Iday {
             }
 
         }
-        println("Returning: $actualAnswer")
+        //println("Returning: $actualAnswer")
         return actualAnswer
     }
 
@@ -79,7 +79,7 @@ class day7 : Iday {
             //println("split0: ${inputLines[l].split(":")[0]}")
             //println("split1: ${inputLines[l].split(":")[1].trim().split(" ")}")
             val formulaNumbers = inputLines[l].split(":")[1].trim().split(" ").map() { it.toLong() }
-            println("formulaNumbers: $formulaNumbers")
+            //println("formulaNumbers: $formulaNumbers")
             var stack = ArrayDeque(formulaNumbers)
             var binaryNum = 0
             var calculatedValue = caculateWithTernary(binaryNum, stack, answer)
@@ -98,7 +98,7 @@ class day7 : Iday {
         for(n in 0 until Math.pow(3.toDouble(), stack.size.toDouble()).toInt()) {
             actualAnswer = calculateStringWithTernaryRepresentationForOperators(stack, newBinaryNumber)
             if (actualAnswer == expectedAnswer) {
-                println("We found the answer!")
+                println("We found an answer!")
                 return expectedAnswer
             }
             newBinaryNumber += 1
@@ -109,7 +109,7 @@ class day7 : Iday {
         var actualAnswer = 0L
         var binaryAsString = decimalToTernary(binaryNumber)
         var positionInBinary = binaryAsString.length - 1
-        println("actualAnswer: $actualAnswer, binaryAsString: $binaryAsString")
+        //println("actualAnswer: $actualAnswer, binaryAsString: $binaryAsString")
         //println("len(positionInBinary): ${binaryAsString.length}")
         for(n in stack.indices) {
             //println("Stack[$n]: ${stack[n]}")
@@ -131,7 +131,7 @@ class day7 : Iday {
             }
 
         }
-        println("Returning: $actualAnswer")
+            //println("Returning: $actualAnswer")
         return actualAnswer
     }
 

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Updating .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/day7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/day7.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
