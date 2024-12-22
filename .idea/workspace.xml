@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41000787-687b-442e-a6db-14cbd6b5a092" name="Changes" comment="Updating .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day8.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day8part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day8part1example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day9part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day9part1example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
